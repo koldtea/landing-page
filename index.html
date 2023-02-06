@@ -8,50 +8,87 @@
   <title>Project Odin: Landing Page</title>
 </head>
 <body>
-  <div class="header">
-    <a class="logo">Header Logo</a>
-      <div class="header-right">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+  <header class="header">
+    <div class="pagewrapone">
+      <a href="#" class="logo">Header Logo</a>
+        <ul class="header-right">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="pagewraptwo">
+        <div class="herotext">
+          <h1 class="heading">This website needs work!</h1>
+          <p class="subtext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum accusamus, iusto quidem adipisci hic assumenda perferendis facilis ullam doloremque tempore libero, deleniti, omnis quis quo.</p>
+          <a href="#" class="btn">Sign up</a>
+        </div>
+        <div class="heroimage">
+          <img src="./images/kirillslovhut.png">
+        </div>
       </div>
-  </div>
-  <div class="content">
-    <div class="hero">
-      <p>This website is awesome</p>
-      <p>Placeholder for subtext. Smaller font, color is lower contrast</p>
-      <button>Sign up</button>
-    </div>
-      <div class="heroimg"></div>
-    <div class="info">
-      <p>Some relevant information</p>
-      <img src="" alt="">
-      <p>Add subtext</p>
-      <img src="" alt="">
-      <p>Add subtext</p>
-      <img src="" alt="">
-      <p>Add subtext</p>
-      <img src="" alt="">
-      <p>Add subtext</p>
-    </div>
-    <figure class="quote">
-      <blockquote>
-        Tis' but a scratch!
-      </blockquote>
-      <figcaption>
-        &mdash;	That one knight, <cite>Monty Python</cite>
-      </figcaption>
-    </figure>
-    <div class="call">
-      <div class="signup">
-        <p>Call to action! It's time!</p>
-        <p>Sign up for out product by clicking that button right over there!</p>
-        <button>Sign up</button>
+    </section>
+
+    <section class="info">
+      <h2 class="infotext">Some cool images from Unplash</h2>
+      <div class="pagewrapthree">
+        <div class="infocontent">
+          <div class="productcard">
+            <img src="./images/austin-curtis-unsplash.jpg" alt="snow-tipped mountain">
+            <p class="infosub">See that mountain?</p>
+          </div>
+          <div class="productcard">
+            <img src="./images/dina-badamshina-unsplash.jpg" alt="beach and blue sky">
+            <p class="infosub">Look at this beach!</p>
+          </div>
+          <div class="productcard">
+            <img src="./images/francesco-ungaro-unsplash.jpg" alt="steep cliff">
+            <p class="infosub">Clear skies!</p>
+          </div>
+          <div class="productcard">
+            <img src="./images/freysteinn-g-jonsson-unsplash.jpg" alt="snow terrain">
+            <p class="infosub">Much snow.</p>
+          </div>
+        </div>
       </div>
+    </section>
+
+    <section id="quote">
+      <div class="pagewrapfour">
+        <div class="quotecontent">
+          <figure class="quotebox">
+            <blockquote class="quote">
+              <p>Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced.</p>
+            </blockquote>
+            <div class="sourcequote">
+              <figcaption>&mdash;	Aldous Huxley, <cite>Brave New World</cite></figcaption>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="calltoaction">
+      <div class="pagewrapfive">
+        <div class="actiontext">
+          <h2>Call to action! It's time!</h2>
+          <p>Sign up for out product by clicking that button right over there!</p>
+        </div>
+        <div class="signup">
+          <a href="#" class="callbtn">Sign up</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <p>Copyright &copy; The Odin Project 2023</p>
     </div>
-    <footer>
-      Copyright &copy; The Odin Project 2023
-    </footer>
-  </div>
+  </footer>
 </body>
 </html>
