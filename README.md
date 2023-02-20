@@ -1,3 +1,3 @@
 # landing-page
 
-Website Preview: https://projectlandingpagekoldtea.netlify.app/
+Website Preview: https://koldtea.github.io/landing-page/
